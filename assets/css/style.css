@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Prata;
+  font-style: normal;
+  src: url("/assets/fonts/Prata-Regular.ttf");
+}
+.prata {
+  font-family: Prata;
+}
+body {
+  font-family: "Verdana";
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Prata";
+}
+a {
+  color: #551c3d;
+  text-decoration: none;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0;
+  padding: 0;
+}
+header .nav,
+header .navbar-brand {
+  margin-left: 40px;
+}
+main {
+  background-image: url "/assets/img/E51766CC-1669-4E25-B31C-A41A9AF37EDC_1_105_c.jpeg" no-repeat;
+}
+section {
+  min-height: 400px;
+  margin: 200px 0;
+  padding-top: 80px;
+}
+footer {
+  background-color: #551c3d;
+  min-height: 80px;
+  margin: 0;
+  padding: 0;
+}
+.txtPrata {
+  font-family: "Prata";
+}
+.txtBordo {
+  color: #551c3d;
+}
+.txtDorado {
+  color: #a19663;
+}
+.txtVioleta {
+  color: #6e6cb8;
+}
+.fondoBordo {
+  background-color: #551c3d;
+}
+.fondoDorado {
+  background-color: #a19663;
+}
+.fondoVioleta {
+  background-color: #6e6cb8;
+}

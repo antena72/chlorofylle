@@ -1,0 +1,242 @@
+bordo = #551C3D
+dorado = #A19663
+violeta = #6E6CB8
+claro = #DFDFDF
+@font-face
+   font-family Prata
+   font-style normal
+   src url(/assets/fonts/Prata-Regular.ttf)
+
+.prata
+    font-family Prata
+body 
+    background claro    
+h1, h2, h3, h4, h5, h6 
+    font-family 'Prata', serif
+p 
+    font-family Arial
+nav#mainNav.navbar.navbar-expand-lg.navbar-default 
+    background-color bordo
+    #idioma
+        color claro
+        position absolute  !important
+        right 20px
+        top 30%
+        button
+            color claro
+            &:hover 
+                color dorado !important
+    a 
+        color white
+        &:hover
+            color dorado
+    .navbar-brand h3
+        font-size 2.5em!important
+    .navbar-toggler
+        color white
+        &:focus 
+            box-shadow none  !important
+
+a:hover 
+    text-decoration none
+#mainNav
+    background bordo
+    #logo
+        height 60px
+#masthead
+    background-image url("../img/pasionaria.jpeg")
+    background-repeat no-repeat
+    background-attachment scroll
+    background-position center center
+    background-size cover
+    padding-top 10.5rem
+    padding-bottom 6rem
+    text-align center 
+    .masthead-subheading h1
+        color white
+        font-size 5em
+        font-weight 700
+        line-height 3.25rem
+        margin 3rem
+        margin-bottom 100px   
+    a#masInfo
+        background bordo
+        &:hover
+            background dorado
+
+section
+    min-height 650px
+    padding 200px 0
+    h2 
+        margin 30px 50px
+        text-transform uppercase
+#intro 
+    .iconoPresentacion
+        margin-bottom 50px
+#mision
+    #maria 
+        #logo
+            padding 40px 20px
+            opacity .7
+        #texto 
+            padding-top 80px
+            h4 
+                padding-bottom 30px
+#propuesta 
+    display block
+    & div div 
+        margin-bottom 20px
+        padding 20px
+        p 
+            margin-bottom 30px
+#arana 
+    background-repeat no-repeat
+    background-attachment scroll
+    background-position center center
+    background-size cover
+    height 400px
+    box-sizing border-box
+    padding 0!important
+    &.block-parallax-1 
+        overflow hidden
+        position relative
+        .parallax-bg 
+            background-image url('../img/arana.jpeg')
+            background-attachment fixed
+            background-position 0px 0px
+            background-repeat repeat
+            height 100%
+            position absolute
+            width 100%
+            min-width 1170px
+            -webkit-background-size cover
+            -moz-background-size cover
+            background-size cover
+        .md-box 
+            padding 200px 0 200px
+            background rgba(0, 0, 0, 0.3)
+            position relative
+            height 100%
+            text-align center
+            h4
+                font-size 2.5em!important
+                color #fff     
+#bosque
+    position relative
+    overflow hidden
+    // background-image url('../img/bosque.jpeg')
+    // background-repeat no-repeat
+    // background-attachment scroll
+    // background-position center center
+    // background-size cover
+    // height 400px
+    // box-sizing border-box
+    // padding 0!important
+    // position relative
+    img 
+        height auto
+        left 0
+        opacity 0.8
+        position absolute
+        top 0
+        width 100%
+    span 
+        // background-color white
+        // color #000
+        color white
+        left 0
+        // mix-blend-mode screen
+        padding 0
+        position absolute
+        text-align center
+        // transform translate (-50% -50%)
+        top 0
+        width 100%
+        padding 100px
+        position relative
+        z-index 2
+        h4 
+            font-size 2em!important
+            font-weight 900!important
+            margin 20px 50px
+            
+
+#contacto 
+    #datos
+        margin-top 40px
+    a 
+        color bordo 
+        text-decoration none
+        &:hover 
+            color dorado
+        i  
+            padding-right 20px
+            vertical-align middle 
+        i + span 
+             margin-left 20px
+footer
+    background bordo
+
+
+
+
+//@media (max-width: 992px)
+//nop
+@media (max-width: 768px)
+    #masthead 
+        padding-top 200px
+        .masthead-heading h2
+            font-size 45px
+            line-height 50px
+            margin 4rem auto  
+    section
+        min-height auto
+        padding 50px 0 70px
+        h2 
+            margin 10px 
+@media (max-width: 576px)
+    section
+        min-height auto
+        padding 50px 0 70px
+        h2 
+            margin 10px
+    #masthead 
+        padding-top 5rem
+        .masthead-heading h2
+            font-size 30px
+            line-height 35px
+            margin 2rem auto 
+.sticky.is-sticky
+    position fixed
+    left 0
+    right 0
+    top 0
+    z-index 1000
+    width 100%
+
+
+.opacidad50
+    opacity .5
+.txtGrande
+    font-size 1.5em
+.miTooltip + .tooltip > .tooltip-inner
+    background naranja
+
+// estilos
+.txtPrata
+    font-family "Prata"
+.txtBordo
+    color bordo 
+.txtDorado
+    color dorado 
+.txtVioleta 
+    color violeta
+.fondoBordo
+    background-color bordo 
+.fondoDorado
+    background-color dorado 
+.fondoVioleta 
+    background-color violeta
+.txtSombra
+    text-shadow 2px 2px 2px #0A0403
+

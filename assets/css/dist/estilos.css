@@ -1,0 +1,277 @@
+@font-face {
+  font-family: Prata;
+  font-style: normal;
+  src: url("/assets/fonts/Prata-Regular.ttf");
+}
+.prata {
+  font-family: Prata;
+}
+body {
+  background: #dfdfdf;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Prata', serif;
+}
+p {
+  font-family: Arial;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default {
+  background-color: #551c3d;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default #idioma {
+  color: #dfdfdf;
+  position: absolute !important;
+  right: 20px;
+  top: 30%;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default #idioma button {
+  color: #dfdfdf;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default #idioma button:hover {
+  color: #a19663 !important;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default a {
+  color: #fff;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default a:hover {
+  color: #a19663;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default .navbar-brand h3 {
+  font-size: 2.5em !important;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default .navbar-toggler {
+  color: #fff;
+}
+nav#mainNav.navbar.navbar-expand-lg.navbar-default .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+a:hover {
+  text-decoration: none;
+}
+#mainNav {
+  background: #551c3d;
+}
+#mainNav #logo {
+  height: 60px;
+}
+#masthead {
+  background-image: url("../img/pasionaria.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+#masthead .masthead-subheading h1 {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin: 3rem;
+  margin-bottom: 100px;
+}
+#masthead a#masInfo {
+  background: #551c3d;
+}
+#masthead a#masInfo:hover {
+  background: #a19663;
+}
+section {
+  min-height: 650px;
+  padding: 200px 0;
+}
+section h2 {
+  margin: 30px 50px;
+  text-transform: uppercase;
+}
+#intro .iconoPresentacion {
+  margin-bottom: 50px;
+}
+#mision #maria #logo {
+  padding: 40px 20px;
+  opacity: 0.7;
+}
+#mision #maria #texto {
+  padding-top: 80px;
+}
+#mision #maria #texto h4 {
+  padding-bottom: 30px;
+}
+#propuesta {
+  display: block;
+}
+#propuesta div div {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#propuesta div div p {
+  margin-bottom: 30px;
+}
+#arana {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 0 !important;
+}
+#arana.block-parallax-1 {
+  overflow: hidden;
+  position: relative;
+}
+#arana.block-parallax-1 .parallax-bg {
+  background-image: url("../img/arana.jpeg");
+  background-attachment: fixed;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  min-width: 1170px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+#arana.block-parallax-1 .md-box {
+  padding: 200px 0 200px;
+  background: rgba(0,0,0,0.3);
+  position: relative;
+  height: 100%;
+  text-align: center;
+}
+#arana.block-parallax-1 .md-box h4 {
+  font-size: 2.5em !important;
+  color: #fff;
+}
+#bosque {
+  position: relative;
+  overflow: hidden;
+}
+#bosque img {
+  height: auto;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#bosque span {
+  color: #fff;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  padding: 100px;
+  position: relative;
+  z-index: 2;
+}
+#bosque span h4 {
+  font-size: 2em !important;
+  font-weight: 900 !important;
+  margin: 20px 50px;
+}
+#contacto #datos {
+  margin-top: 40px;
+}
+#contacto a {
+  color: #551c3d;
+  text-decoration: none;
+}
+#contacto a:hover {
+  color: #a19663;
+}
+#contacto a i {
+  padding-right: 20px;
+  vertical-align: middle;
+}
+#contacto a i + span {
+  margin-left: 20px;
+}
+footer {
+  background: #551c3d;
+}
+@media (max-width: 768px) {
+  #masthead {
+    padding-top: 200px;
+  }
+  #masthead .masthead-heading h2 {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 4rem auto;
+  }
+  section {
+    min-height: auto;
+    padding: 50px 0 70px;
+  }
+  section h2 {
+    margin: 10px;
+  }
+}
+@media (max-width: 576px) {
+  section {
+    min-height: auto;
+    padding: 50px 0 70px;
+  }
+  section h2 {
+    margin: 10px;
+  }
+  #masthead {
+    padding-top: 5rem;
+  }
+  #masthead .masthead-heading h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 2rem auto;
+  }
+}
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.opacidad50 {
+  opacity: 0.5;
+}
+.txtGrande {
+  font-size: 1.5em;
+}
+.miTooltip + .tooltip > .tooltip-inner {
+  background: naranja;
+}
+.txtPrata {
+  font-family: "Prata";
+}
+.txtBordo {
+  color: #551c3d;
+}
+.txtDorado {
+  color: #a19663;
+}
+.txtVioleta {
+  color: #6e6cb8;
+}
+.fondoBordo {
+  background-color: #551c3d;
+}
+.fondoDorado {
+  background-color: #a19663;
+}
+.fondoVioleta {
+  background-color: #6e6cb8;
+}
+.txtSombra {
+  text-shadow: 2px 2px 2px #0a0403;
+}

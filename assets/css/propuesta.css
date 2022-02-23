@@ -1,0 +1,95 @@
+#propuesta .tile { 
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05);
+    opacity: 0.99;
+    overflow: hidden;
+    position: relative;
+    padding:10px;
+    margin:0;
+    text-align: left;
+  }  
+  #propuesta .tile a:hover{
+    cursor: context-menu;
+   }
+  #propuesta .tile:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    content: "";
+    border-radius: 10px;
+    height: 70%;
+    left: 0;
+    
+    opacity: 0;
+    padding: 0 10px 0;
+    position: absolute;
+    bottom: 10px;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+    width: 100%; /*para celus 96 */
+    z-index: 2;
+  } 
+
+   #propuesta .tile img {
+    display: block;
+    max-width: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+   #propuesta .tile .detalles {
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+
+   #propuesta .tile .detalles span {
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 100px;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+  }
+
+   #propuesta .tile .detalles .title {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+   #propuesta .tile .detalles .info {
+    line-height: 1.2;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+   #propuesta .tile:focus:before,
+   #propuesta .tile:focus span,
+   #propuesta .tile:hover:before,
+   #propuesta .tile:hover span {
+    opacity: 1;
+  }
+
+   #propuesta .tile:focus:before,
+   #propuesta .tile:hover:before {
+    top: 50%;
+  }
+
+   #propuesta .tile:focus span,
+   #propuesta .tile:hover span {
+    top: 0;
+  }
+
+   #propuesta .tile:focus .title,
+   #propuesta .tile:hover .title {
+    transition-delay: 0.15s;
+  }
+
+   #propuesta .tile:focus .info,
+   #propuesta .tile:hover .info {
+    transition-delay: 0.25s;
+  }
